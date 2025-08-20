@@ -122,7 +122,7 @@ function getFarPosition(containerRect, windowWidth, windowHeight, buttonWidth, b
 
 yesBtn.addEventListener('click', () => {
     title.innerHTML = "HORE!! i knew you would say vqsghvwegdsbjs";
-    document.querySelector('img').src = "https://tenor.com/jE9bj6749wo.gif";
+    document.querySelector('img').src = "https://media1.tenor.com/m/bqY_PTid0sYAAAAd/kiss-k-on.gif";
     noBtn.style.display = 'none';
     yesBtn.style.display = 'none';
     bgMusic.play();
@@ -160,5 +160,6 @@ const handleButtonDodge = (e) => {
 noBtn.addEventListener('mouseover', handleButtonDodge);
 noBtn.addEventListener('touchstart', handleButtonDodge, { passive: false });
 noBtn.addEventListener('touchmove', (e) => e.preventDefault(), { passive: false });
+
 
 
