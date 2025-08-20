@@ -8,16 +8,16 @@ window.addEventListener('load', () => {
 
 const messages = [
     {
-        text: "u know i would say this, pretty please",
-        image: "https://i.ibb.co.com/qFcxtx6Y/23fce05c07760d68a9b02f3ed8247c98.jpg"
+        text: "plss mau dong",
+        image: "https://i.pinimg.com/736x/1e/7c/6f/1e7c6ff7a0c26f7eaefbce683656193d.jpg"
     },
     {
         text: "pls klik yg kiri",
-        image: "https://i.ibb.co.com/39qjHNkj/82be04604449fefe176e7b794d17755b-1.jpg""
+        image: "https://i.pinimg.com/736x/90/73/a9/9073a9359bff531cd830ae7384752934.jpg"
     },
     {
-        text: "terakhir, kalo \"no\" mi will hertbreak(kalo belum siap jas tel mee)",
-        image: "https://i.ibb.co.com/qFd8SXvD/23d7ba0edc20afc864d60fcae968a87b.jpg"
+        text: "terakhir, kalo \"no\" yauda deh",
+        image: "https://i.pinimg.com/736x/a6/43/f5/a643f5a40db387585b56bc767b66fddb.jpg"
     }
 ];
 
@@ -121,7 +121,7 @@ function getFarPosition(containerRect, windowWidth, windowHeight, buttonWidth, b
 }
 
 yesBtn.addEventListener('click', () => {
-    title.innerHTML = "YAYAYAYAYYY! i knew you would say vqsghvwegdsbjs(HEKPP IM TRIPPIN)";
+    title.innerHTML = "HORE!! i knew you would say vqsghvwegdsbjs";
     document.querySelector('img').src = "https://media.tenor.com/gUiu1zyxfzYAAAAi/good-night-kiss-kiss.gif";
     noBtn.style.display = 'none';
     yesBtn.style.display = 'none';
@@ -160,5 +160,3 @@ const handleButtonDodge = (e) => {
 noBtn.addEventListener('mouseover', handleButtonDodge);
 noBtn.addEventListener('touchstart', handleButtonDodge, { passive: false });
 noBtn.addEventListener('touchmove', (e) => e.preventDefault(), { passive: false });
-
-
